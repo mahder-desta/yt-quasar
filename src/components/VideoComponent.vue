@@ -1,5 +1,5 @@
 <template>
-  <q-card flat class="">
+  <q-card flat>
     <q-img :src="video.thumbnail_image" height="210px" fit="cover" />
 
     <q-card-section class="q-pl-none q-pt-none">
