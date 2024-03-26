@@ -1,8 +1,8 @@
-export interface Todo {
+export interface Video {
   id: number;
-  content: string;
-}
-
-export interface Meta {
-  totalCount: number;
+  title: string;
+  channel: string;
+  thumbnail_image: string;
+  channel_image: string;
+  views: number;
 }
